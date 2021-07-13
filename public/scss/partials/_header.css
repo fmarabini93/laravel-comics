@@ -9,7 +9,14 @@
 }
 #header-top .container span:first-child {
     display: inline-block;
-    margin-right: 30px;
+}
+#header-top .container span:first-child i {
+    position: relative;
+    top: -5px;
+    font-size: 10px;
+}
+#header-top .container span:nth-child(3) {
+    margin-left: 60px;
 }
 
 #header-bottom .container {
@@ -24,4 +31,23 @@
 #header-bottom .container li {
     display: inline-block;
     margin: 0 10px;
+    font-weight: bold;
+    color: #464646;
+}
+#header-bottom .container li:nth-child(2) {
+    color: #0282f9;
+}
+
+#header-bottom .fa-caret-down {
+    color: #0282f9;
+}
+
+#header-bottom .container input {
+    border: 0;
+    margin-right: 5px;
+    text-align: right;
+}
+
+#search {
+    border-bottom: 2px solid #0282f9;
 }
