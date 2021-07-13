@@ -1,0 +1,21 @@
+.main-btm {
+    display: flex;
+    align-items: center;
+    background-color: #0282f9;
+}
+.main-btm ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.main-btm li {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 14px;
+}
+.main-btm img {
+    height: 70px;
+    margin-right: 30px;
+}
