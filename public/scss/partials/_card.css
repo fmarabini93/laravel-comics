@@ -1,0 +1,10 @@
+.card {
+    width: calc(100% / 6 - 40px);
+    float: left;
+    margin: 20px;
+}
+.card div {
+    height: 195px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}

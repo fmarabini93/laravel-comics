@@ -1,0 +1,27 @@
+#header-top {
+    height: 25px;
+    line-height: 25px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #0282f9;
+}
+#header-top .container span:first-child {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#header-bottom .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header-bottom .container ul {
+    list-style: none;
+}
+#header-bottom .container li {
+    display: inline-block;
+    margin: 0 10px;
+}

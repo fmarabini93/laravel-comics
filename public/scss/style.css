@@ -1,0 +1,38 @@
+@import 'partials/_header.css';
+@import 'partials/_jumbotron.css';
+@import 'partials/_card.css';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.bar {
+    height: 130px;
+}
+
+main {
+    padding: 50px 0;
+    background-color: #1c1c1c;
+    color: #ffffff;
+}
+
+main .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
